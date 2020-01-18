@@ -36,6 +36,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$x-space: 24px;
+$y-space: 16px;
 .card-front {
   position: absolute;
   width: 100%;
@@ -58,28 +60,28 @@ export default {
 
   &__chip {
     position: absolute;
-    top: -12px;
-    left: 0;
-    width: 100px;
+    top: $y-space;
+    left: $x-space;
+    width: 50px;
   }
 
   &__symbol {
     position: absolute;
-    top: 16px;
-    right: 24px;
+    top: $y-space;
+    right: $x-space;
     width: 64px;
   }
 
   &__info {
     position: absolute;
-    bottom: 16px;
-    right: 24px;
+    bottom: $y-space;
+    right: $x-space;
     color: white;
     text-align: left;
     margin: 0;
 
     &.left {
-      left: 24px;
+      left: $x-space;
     }
 
     .value {
@@ -92,7 +94,7 @@ export default {
   }
   &__expires {
     right: auto;
-    left: 24px;
+    left: $x-space;
   }
   @media screen and (max-width: 480px) {
     &__number {
