@@ -62,14 +62,14 @@ $y-space: 16px;
     position: absolute;
     top: $y-space;
     left: $x-space;
-    width: 50px;
+    height: 44px;
   }
 
   &__symbol {
     position: absolute;
     top: $y-space;
     right: $x-space;
-    width: 64px;
+    height: 48px;
   }
 
   &__info {
@@ -104,11 +104,10 @@ $y-space: 16px;
       font-size: 12px;
     }
     &__chip {
-      width: 75px;
-      top: -5px;
+      height: 34px;
     }
     &__symbol {
-      width: 48px;
+      height: 38px;
     }
   }
   @media screen and (max-width: 360px) {
