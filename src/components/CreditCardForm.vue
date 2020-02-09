@@ -15,7 +15,6 @@
       <div class="card-input">
         <label for="cardNumber" class="card-input__label">Card Number</label>
         <input
-          type="text"
           v-imask="cardMasks"
           @accept="onAcceptCardType"
           :value="cardNumber"
@@ -28,7 +27,6 @@
       <div class="card-input">
         <label for="cardName" class="card-input__label">Card Owner</label>
         <input
-          type="text"
           id="cardName"
           class="card-input__input"
           v-model="name"
@@ -48,9 +46,9 @@
             >
               <option value disabled selected>Month</option>
               <option
-                v-bind:value="10 > n ? '0' + n : n"
                 v-for="n in 12"
-                v-bind:key="n"
+                :key="n"
+                :value="10 > n ? '0' + n : n"
                 >{{ 10 > n ? "0" + n : n }}</option
               >
             </select>
@@ -61,9 +59,9 @@
             >
               <option value disabled selected>Year</option>
               <option
-                v-bind:value="$index + currentYear"
                 v-for="(n, $index) in 12"
-                v-bind:key="n"
+                :value="$index + currentYear"
+                :key="n"
                 >{{ $index + currentYear }}</option
               >
             </select>
