@@ -1,23 +1,29 @@
 # credit-card-form
 
+This is the source code for the Build a credit card form with Vue.js. Final code is in the master branch and start code in starter-code branch.
+
+Tutorial can be found at https://writejavascript.com/blog/build-a-credit-card-form-in-vue
+
+Demo can be fond at https://lucid-bose-22cd99.netlify.app
+
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+npm build
 ```
 
 ### Lints and fixes files
 ```
-yarn lint
+npm lint
 ```
 
 ### Customize configuration
