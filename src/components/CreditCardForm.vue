@@ -45,12 +45,9 @@
               v-model="expireMonth"
             >
               <option value disabled selected>Month</option>
-              <option
-                v-for="n in 12"
-                :key="n"
-                :value="10 > n ? '0' + n : n"
-                >{{ 10 > n ? "0" + n : n }}</option
-              >
+              <option v-for="n in 12" :key="n" :value="10 > n ? '0' + n : n">{{
+                10 > n ? "0" + n : n
+              }}</option>
             </select>
             <select
               class="card-input__input -select"
