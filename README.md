@@ -4,7 +4,7 @@ This is the source code for the Build a credit card form with Vue.js. Final code
 
 Tutorial can be found at https://writejavascript.com/blog/build-a-credit-card-form-in-vue
 
-Demo can be fond at https://lucid-bose-22cd99.netlify.app
+Demo can be fond at https://vue-credit-card.writejavascript.com
 
 ## Project setup
 ```
